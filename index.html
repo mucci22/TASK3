@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>European Football with Kevin and Nick</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e0f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #ff7e5f, #feb47b), url('https://source.unsplash.com/random/1600x400/?football,europe');
+      background-size: cover;
+      background-blend-mode: multiply;
+      color: #fff;
+      text-align: center;
+      padding: 4rem 1rem;
+      position: relative;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+    nav {
+      background-color: #ff5252;
+      overflow: hidden;
+    }
+    nav a {
+      display: inline-block;
+      color: #fff;
+      padding: 1rem 1.5rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #ff867c;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      background: #fff;
+      margin: 1rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      max-width: 1000px;
+      border-left: 5px solid #ff5252;
+    }
+    section h2 {
+      border-bottom: 2px solid #ff5252;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #ff5252;
+    }
+    .bio, .history, .clubs, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .bio img, .history img, .clubs img, .gallery img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .bio-content, .history-content, .clubs-content {
+      flex: 1 1 300px;
+    }
+    .gallery img {
+      flex: 1 1 calc(33% - 1rem);
+    }
+    footer {
+      background-color: #ff5252;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 768px) {
+      .gallery img {
+        flex: 1 1 calc(50% - 1rem);
+      }
+    }
+    @media (max-width: 480px) {
+      .gallery img {
+        flex: 1 1 100%;
+      }
+    }
+    
+    /* Club Spotlights Section */
+    #club-spotlights {
+      background: #fff;
+      margin: 1rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      max-width: 1000px;
+      border-left: 5px solid #ff5252;
+    }
+    #club-spotlights h2 {
+      border-bottom: 2px solid #ff5252;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #ff5252;
+    }
+    .spotlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .spotlight-card {
+      display: block;
+      flex: 1 1 300px;
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .spotlight-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .card-content h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>European Football</h1>
+    <p>A Journey Through the Beautiful Game with Kevin and Nick</p>
+  </header>
+  
+  <nav>
+    <a href="#bio">Our Story</a>
+    <a href="#history">History</a>
+    <a href="#clubs">Famous Clubs</a>
+    <a href="#club-spotlights">Club Spotlights</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <main>
+    <!-- Biography Section -->
+    <section id="bio">
+      <h2>Our Story</h2>
+      <div class="bio">
+        <div class="bio-content">
+          <p>European football is more than just a sport—it's a cultural phenomenon that unites millions of fans across the continent. Born out of passion and tradition, the game has evolved into a spectacle of skill, drama, and unforgettable moments. Our site explores the heart and soul of European football, delving into its rich history, legendary players, and the modern-day rivalries that captivate audiences worldwide.</p>
+          <p>From the early days of local matches to the glitz and glamour of today's top leagues, European football remains a testament to the power of community, perseverance, and the love of the game. Join us as we celebrate the past, present, and future of this beautiful sport.</p>
+        </div>
+        <img src="https://source.unsplash.com/random/500x300/?soccer,stadium" alt="Football Stadium">
+      </div>
+    </section>
+    
+    <!-- History Section -->
+    <section id="history">
+      <h2>History of European Football</h2>
+      <div class="history">
+        <img src="https://source.unsplash.com/random/500x300/?vintage,football" alt="Vintage Football">
+        <div class="history-content">
+          <p>European football has its roots in the late 19th century when clubs began to form in cities and towns across the continent. This era set the foundation for a sport that would grow into a global powerhouse. Iconic tournaments, such as the UEFA Champions League, showcase the pinnacle of club competition, while national leagues continue to be a battleground for pride and history.</p>
+          <p>Throughout the decades, memorable matches, tactical evolutions, and charismatic figures have left an indelible mark on the sport, making European football a continually evolving narrative of passion and skill.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Famous Clubs Section -->
+    <section id="clubs">
+      <h2>Famous Clubs</h2>
+      <div class="clubs">
+        <div class="clubs-content">
+          <p>Europe is home to some of the most storied football clubs in history. Teams like Real Madrid, FC Barcelona, Manchester United, Bayern Munich, and Juventus have not only amassed an impressive array of trophies but also inspired generations of fans with their unique styles and traditions.</p>
+          <p>These clubs continue to be at the forefront of innovation and excellence, making them an integral part of the European football landscape.</p>
+        </div>
+        <img src="https://source.unsplash.com/random/500x300/?football,team" alt="Famous Football Clubs">
+      </div>
+    </section>
+    
+    <!-- Club Spotlights Section -->
+    <section id="club-spotlights">
+      <h2>Club Spotlights</h2>
+      <div class="spotlights">
+        <a href="https://hajduk.hr/" class="spotlight-card" target="_blank">
+          <div class="card-content">
+            <h3>Hajduk Split</h3>
+            <p>Visit the official site of Hajduk Split and explore their rich history and vibrant culture.</p>
+          </div>
+        </a>
+        <a href="https://gnkdinamo.hr/en" class="spotlight-card" target="_blank">
+          <div class="card-content">
+            <h3>Dinamo Zagreb</h3>
+            <p>Discover more about GNK Dinamo Zagreb and their legacy in European football.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="football1.jpg" alt="Football Match">
+        <img src="football2.jpg" alt="Football Players">
+        <img src="football3.jpg" alt="Football Stadium">
+        <img src="football4.jpg" alt="Football Crowd">
+        <img src="football5.jpg" alt="Action Shot">
+        <img src="football6.jpg" alt="Celebration">
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Questions class?</h2>
+      <p>i love football!!</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 European Football. All Rights Reserved.</p>
+  </footer>
+</body>
